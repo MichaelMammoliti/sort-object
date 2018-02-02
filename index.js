@@ -10,7 +10,7 @@ const sortObject = obj => {
         value = sortObject(value);
       }
 
-      return { ...acc, [key]: value }
+      return { ...acc, [key]: value };
     }, {})
   ;
 }
