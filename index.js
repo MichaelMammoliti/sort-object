@@ -7,7 +7,7 @@ const sortObject = obj => {
 
       // it's an object!
       if (Object(value) === value) {
-        value = orderObject(value);
+        value = sortObject(value);
       }
 
       return { ...acc, [key]: value }
